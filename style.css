@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*navbar styling*/
+#navbar {
+  position: relative;
+  float: right;
+}
+/*
+#navbar::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.4;
+}*/
+
+#navbar ul {
+  display: flex;
+
+  font-size: 23px;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#navbar ul li a:hover {
+  color: aqua;
+}
+
+/*home section stylining*/
+
+#home {
+  /*
+  display: flex;
+  flex-direction: column;
+  padding: 1px 115px;
+  height: 450px;
+  width: 1165px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  */
+  display: flex;
+  flex-direction: column;
+  padding: 54px 20px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  background: url("./images/frontimg.jpg  ") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.9;
+  height: 500px;
+  top: 0px;
+  left: 0px;
+}
+
+h1 {
+  font-size: 95px;
+  text-align: center;
+  color: white;
+  font-family: "Unbounded", cursive;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(237, 228, 228);
+  background-color: rgba(64, 63, 63, 0.29);
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 8px;
+}
+#search input {
+  width: 400px;
+  height: 45px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+
+#search input:hover {
+  background-color: rgba(180, 176, 176, 0.96);
+  color: black;
+}
+
+#search input::placeholder {
+  font-size: 18px;
+  color: rgb(94, 93, 93);
+}
+
+#search label {
+  color: white;
+  font-size: 23px;
+  padding: 12px;
+  margin: 5px;
+  background-color: rgb(7, 159, 159);
+  border-radius: 25px;
+}
+/*cards section styling*/
+#cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+#cards .box {
+  border: 1px solid rgb(95, 94, 94);
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+#cards .box:hover {
+  width: 320px;
+  height: 270px;
+  cursor: pointer;
+}
+
+#cards .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+  width: 300px;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+#cards .box img:hover {
+  height: 180px;
+  width: 320px;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 3px;
+  padding: 7px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 3px;
+}
+
+/*fast delivery section styling*/
+#delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  background-color: #1b0701;
+  height: 430px;
+}
+
+#delivery .not {
+  width: 300px;
+  height: 250px;
+  margin: 8px;
+  padding: 50px;
+}
+
+#delivery .not img {
+  height: 200px;
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+.temp {
+  color: white;
+}
+
+#delivery #bell img {
+  height: 120px;
+  width: 120px;
+  padding: 37px;
+}
+
+#para {
+  color: rgba(183, 182, 182, 0.905);
+}
+
+#delivery #minimum img {
+  height: 120px;
+  width: 120px;
+  padding: 37px;
+}
+
+#contact {
+  display: flex;
+  margin-top: 0px;
+  height: 500px;
+  justify-content: center;
+  background-color: #d5cea3;
+}
+
+/*sign up section styling*/
+#contact-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 34px;
+  padding: 25px;
+  width: 540px;
+}
+
+#contact #photo img {
+  height: 500px;
+  width: 720px;
+}
+
+#login {
+  color: #1b0701;
+  background-color: #f49d1a;
+  padding: 10px;
+}
+
+#contact label {
+  color: #1b0701;
+}
+
+#contact #contact-box input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 10px;
+  border: 2px solid #4a625e;
+  font-size: 18px;
+}
+
+#contact #contact-box button {
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  margin: 15px;
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color: #3f5741;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+
+#contact #contact-box button:hover {
+  background-color: #273528;
+
+  border: none;
+  color: white;
+}
+
+/*app section styling*/
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#ios {
+  color: black;
+  background-color: white;
+  font-size: 33px;
+}
+
+#android {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  margin-right: 200px;
+}
+
+#app #phone img {
+  margin-left: 50px;
+  padding: 20px;
+  margin-right: 250px;
+}
+
+#app #android img {
+  height: 200px;
+  width: 250px;
+}
+
+#app #apple {
+  color: rgb(80, 79, 79);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-left: 155px;
+}
+
+/*last section styling*/
+#grid-box {
+  color: white;
+  background-color: black;
+  height: 450px;
+}
+
+hr {
+  margin: 12px;
+  border: 0.02px solid rgb(108, 106, 106);
+}
+
+#primary {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 12px;
+  margin-left: 143px;
+  color: rgb(108, 106, 106);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.samay{
+  margin-top: 9px;
+}
