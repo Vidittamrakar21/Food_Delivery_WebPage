@@ -29,7 +29,7 @@ Made With ❤️ by Vidit Tamrakar
 
 ![Screenshot (348)](https://user-images.githubusercontent.com/114985411/215294468-dded901b-702c-479b-bfd1-0679e952062c.png)
 
-#It is a responsive page, a seperate CSS file is created and media query is used . This is how it looks in a mobile
+#It is a responsive page, a seperate CSS file is created and media query is used . This is how it looks in a mobile phone.
 
 ![Screenshot_2023-02-20-00-49-52-46_40deb401b9ffe8e1df2f1cc5ba480b12](https://user-images.githubusercontent.com/114985411/219971256-3a420caf-fe55-4473-a80f-084c2123c224.jpg)
 ![Screenshot_2023-02-20-00-50-06-80_40deb401b9ffe8e1df2f1cc5ba480b12](https://user-images.githubusercontent.com/114985411/219971262-78e767d2-b6b0-4cd7-8dc0-79b148431bae.jpg)
