@@ -37,5 +37,8 @@ Made With ❤️ by Vidit Tamrakar
 ![Screenshot_2023-02-20-00-50-26-47_40deb401b9ffe8e1df2f1cc5ba480b12](https://user-images.githubusercontent.com/114985411/219971267-e085a539-3f64-446d-ab99-88e169cd3002.jpg)
 
 
+You can view this page by clicking the following link:
+https://vidittamrakar21.github.io/Food_Delivery_website-landing_page/
+
 THANK YOU.
 
