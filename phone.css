@@ -191,3 +191,92 @@ h1 {
   grid-gap: 0.75rem;
   margin-left: 35px;
 }
+
+#rum{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -300px;
+
+ 
+}
+#drum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 360px;
+  width: 300px;
+  margin-top: 10px;
+ margin-left: -10px;
+ border-radius: 13px;
+ font-family: 'Roboto', sans-serif;
+ 
+}
+
+.crossy{
+  margin-top: -300px;
+  position: relative;
+  left: 250px;
+  cursor: pointer;
+}
+
+#drum input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid orange;
+
+}
+
+#mail{
+  margin-top: 40px
+  
+}
+
+#drum input::placeholder{
+  font-size: 18px;
+  text-align: center;
+  color: #f49d1a;
+}
+
+#drum button{
+  height: 35px;
+  width: 120px;
+  background-color: rgb(255, 119, 0);
+  border: none;
+  color: white;
+  font-size: 15px;
+  
+}
+
+#drum button:hover{
+  background-color: rgb(254, 145, 50);
+
+}
+
+#or{
+  color: rgb(0, 85, 255);
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.goog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googlebox{
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(174, 171, 171);
+  margin-top: 20px;
+  width: 250px;
+  height: 60px;
+  font-size: 19px;
+  box-shadow: -6px 7px 10px rgb(164, 163, 163);
+  color: rgb(68, 67, 67);
+
+}
