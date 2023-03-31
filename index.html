@@ -33,6 +33,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   </head>
 
   <body>
@@ -41,9 +42,11 @@
         <li class="items"><a href="#">Investor Relations</a></li>
         <li class="items"><a href="#contact">Order Now</a></li>
         <li class="items"><a href="#">Add Restaurant</a></li>
-        <li class="items"><a href="#">Log In</a></li>
+        <li class="items"><a href="#" onclick="lugin()">Log In</a></li>
       </ul>
     </nav>
+
+    
 
     <section id="home">
       <h1>The Indian Spoon</h1>
@@ -60,7 +63,23 @@
         />
       </div>
     </section>
-
+<div id="rum">
+  <span id="band" class="material-symbols-outlined crossy" onclick="cross()">
+    close
+  </span>
+  <div id="drum">
+    <input type="email" id="mail" placeholder="email">
+    <input type="password" placeholder="password">
+    <button>login</button>
+    <h4 id="or">Or</h4>
+    <div class="googlebox">
+      <div class="goog">
+        <img src="images/search.png" alt="">
+        <h4>continue with google</h4>
+      </div>
+    </div>
+  </div>
+</div>
     <secction id="cards">
       <div class="box">
         <img src="./images/./noodle.jpg" alt="" />
@@ -218,19 +237,7 @@
       </center>
      
     </footer>
-    <script>
-      function pop() {
-        alert(
-          "We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies."
-        );
-        // let name = prompt("what is your name !","Guest");
-        // console.log(name);
-      }
-      setTimeout(pop, 5000);
-
-      
-
-
-    </script>
+    <script src="script.js">
+     </script>
   </body>
 </html>
