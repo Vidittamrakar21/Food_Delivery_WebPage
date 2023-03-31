@@ -357,3 +357,105 @@ footer {
 footer a{
   color: white;
 }
+
+footer a{
+  color: white;
+}
+
+#rum{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -482px;
+  display: none;
+
+}
+#drum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 400px;
+  width: 340px;
+  margin-top: 30px;
+  margin-left: 800px;
+  border-radius: 13px;
+  font-family: 'Roboto', sans-serif;
+  
+ 
+}
+
+.crossy{
+  top: 70px;
+  position: relative;
+  left: 1090px;
+  cursor: pointer;
+}
+
+#drum input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid orange;
+
+}
+
+#mail{
+  margin-top: 20px
+  
+}
+
+#drum input::placeholder{
+  font-size: 18px;
+  text-align: center;
+  color: #f49d1a;
+}
+
+#drum button{
+  height: 35px;
+  width: 120px;
+  background-color: rgb(255, 119, 0);
+  border: none;
+  color: white;
+  font-size: 15px;
+  
+}
+
+#drum button:hover{
+  background-color: rgb(254, 145, 50);
+
+}
+
+#or{
+  color: rgb(0, 85, 255);
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.goog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googlebox{
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(174, 171, 171);
+  margin-top: 20px;
+  width: 250px;
+  height: 60px;
+  font-size: 19px;
+  box-shadow: -6px 7px 10px rgb(164, 163, 163);
+  color: rgb(68, 67, 67);
+}
+
+.googlebox:hover{
+  background-color: #a7a6a696;
+}
+
+#band:hover{
+  border: 1px solid black;
+  color: orangered;
+}
