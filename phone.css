@@ -197,7 +197,7 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-top: -300px;
-
+   display: none;
  
 }
 #drum{
@@ -212,7 +212,7 @@ h1 {
  margin-left: -10px;
  border-radius: 13px;
  font-family: 'Roboto', sans-serif;
- 
+ display: none;
 }
 
 .crossy{
@@ -280,3 +280,5 @@ h1 {
   color: rgb(68, 67, 67);
 
 }
+
+
