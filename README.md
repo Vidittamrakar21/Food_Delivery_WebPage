@@ -1,4 +1,4 @@
-# Food_Delivery_website-landing_page
+# Food_Delivery_WebPage
 This is a landing page for a random food delivery website,
 It is created using HTML and CSS, In HTML i have used various tags like h1,h2,h3 and p tags for writing content.
 section tags for creating different section of the page and input tags for creating a sign up section. 
