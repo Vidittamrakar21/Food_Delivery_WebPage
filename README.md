@@ -23,5 +23,5 @@ Made With ❤️ by Vidit Tamrakar
 You can view this page by clicking the following link:
 https://vidittamrakar21.github.io/Food_Delivery_website-landing_page/
 
-THANK YOU.
+# THANK YOU.
 
