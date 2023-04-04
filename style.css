@@ -1,9 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 html{
   scroll-behavior: smooth;
+}
+
+body{
+  background-color: #FEFCF3;
 }
 /*navbar styling*/
 #navbar {
@@ -130,15 +137,15 @@ h2 {
 
 #cards .box {
   border: 1px solid rgb(95, 94, 94);
-  width: 300px;
+  width: 330px;
   height: 250px;
-  margin: 15px;
+  margin: 18px;
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
 }
 
 #cards .box:hover {
-  width: 320px;
+  width: 340px;
   height: 270px;
   cursor: pointer;
 }
@@ -147,27 +154,29 @@ h2 {
   height: 160px;
   margin: auto;
   display: block;
-  width: 300px;
+  width: 330px;
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
 }
 
 #cards .box img:hover {
-  height: 180px;
-  width: 320px;
+  height: 170px;
+  width: 340px;
   cursor: pointer;
+
 }
 
 h3 {
   font-family: "Noto Sans TC", sans-serif;
   margin: 3px;
   padding: 7px;
-  text-decoration: underline;
+  color: #282626;
 }
 
 p {
   font-family: "Noto Sans TC", sans-serif;
   margin: 3px;
+  color: #353535;
 }
 
 /*fast delivery section styling*/
@@ -326,7 +335,7 @@ p {
 #grid-box {
   color: white;
   background-color: black;
-  height: 450px;
+  height: 600px;
 }
 
 hr {
@@ -347,15 +356,11 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  height: 100px;
+  height: 175px;
 }
 
 .samay{
   margin-top: 9px;
-}
-
-footer a{
-  color: white;
 }
 
 footer a{
@@ -376,10 +381,10 @@ footer a{
   justify-content: center;
   align-items: center;
   background-color: white;
-  height: 400px;
+  height: 420px;
   width: 340px;
-  margin-top: 30px;
-  margin-left: 800px;
+  margin-top: 21px;
+  margin-left: 900px;
   border-radius: 13px;
   font-family: 'Roboto', sans-serif;
   
@@ -387,9 +392,9 @@ footer a{
 }
 
 .crossy{
-  top: 70px;
+  top: 60px;
   position: relative;
-  left: 1090px;
+  left: 1200px;
   cursor: pointer;
 }
 
@@ -402,7 +407,7 @@ footer a{
 }
 
 #mail{
-  margin-top: 20px
+  margin-top: -10px
   
 }
 
@@ -458,4 +463,101 @@ footer a{
 #band:hover{
   border: 1px solid black;
   color: orangered;
+}
+
+#boxlogo{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: -130px;
+  bottom: 30px;
+}
+
+#boxlogo img{
+  width: 100%;
+  height: 100%;
+  margin-left: -20px;
+  border-radius: 90px;
+}
+
+.collect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  font-weight: lighter;
+}
+
+#collection #uu{
+  font-size: 30px;
+  margin-left: 220px;
+}
+#collection #pp{
+  font-size: 18px;
+  margin-left: 228px;
+}
+
+.brick{
+  width: 260px;
+  height: 300px;
+  margin-left: 15px;
+}
+
+.brick img{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.brick .tera{
+  margin-top: -50px;
+  color: #FEFCF3;
+  font-weight: lighter;
+}
+
+.oreo{
+  display: flex;
+}
+
+#shiro{
+  color: rgb(247, 56, 56);
+  margin-left: 135px;
+}
+#shiro:hover{
+  color: rgb(254, 34, 34);
+  cursor: pointer;
+}
+
+.git{
+display: flex;
+}
+
+.hum{
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+
+.hum img{
+  height: 100%;
+  width: 100%;
+}
+
+.git #spoon{
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.insta{
+  margin-top: 40px;
+  margin-left: 550px;
+}
+
+.center{
+  font-size: 23px;
+}
+
+.insta .kk{
+  margin: 12px;
 }
