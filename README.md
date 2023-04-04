@@ -6,28 +6,14 @@ there is also a footer section in which i have displayed copyright part.
 In CSS i have majorly used flex box and grid box for alligning the content, and in cards part, i have used transitions so that when it is get hovered it can show some effet.
     
 Made With ❤️ by Vidit Tamrakar
-
-
-![Screenshot (343)](https://user-images.githubusercontent.com/114985411/215294460-e6520b83-b2e7-433a-894f-aa0911dc38fb.png)
-
-
-![Screenshot (344)](https://user-images.githubusercontent.com/114985411/215294464-4c1b306c-1711-499a-83f0-6df5b79b0c2a.png)
-
-
-
-![Screenshot (345)](https://user-images.githubusercontent.com/114985411/215294465-827b9eb1-847d-4eed-9ef4-1050a4183147.png)
+![Screenshot (63)](https://user-images.githubusercontent.com/114985411/229888389-97d6b86d-942b-4edc-98d2-5e63515703f4.png)
+![Screenshot (64)](https://user-images.githubusercontent.com/114985411/229888408-1058005e-e5a4-4b42-adfa-cd32c0d177c2.png)
+![Screenshot (65)](https://user-images.githubusercontent.com/114985411/229888410-987f4903-b2fc-4a88-9f45-e6086c06c746.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/114985411/229888500-65290dc2-fdea-4174-b8d4-1b2d31935857.png)
+![Screenshot (90)](https://user-images.githubusercontent.com/114985411/229888669-4a08b2f4-db39-47bd-8300-be5998ee0fd2.png)
 
 
 
-![Screenshot (346)](https://user-images.githubusercontent.com/114985411/215294466-033cdaae-396b-44a9-829c-09628f7916bd.png)
-
-
-
-![Screenshot (347)](https://user-images.githubusercontent.com/114985411/215294467-5709ae9c-3b08-49f1-a78a-411ec9c3725d.png)
-
-
-
-![Screenshot (348)](https://user-images.githubusercontent.com/114985411/215294468-dded901b-702c-479b-bfd1-0679e952062c.png)
 
 #It is a responsive page, a seperate CSS file is created and media query is used . This is how it looks in a mobile phone.
 
