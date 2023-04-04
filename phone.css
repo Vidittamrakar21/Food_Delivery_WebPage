@@ -182,7 +182,7 @@ h1 {
 }
 
 #grid-box {
-  height: 400px;
+  height: 600px;
 }
 
 .grid {
@@ -190,15 +190,17 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.75rem;
   margin-left: 35px;
+  
 }
+
 
 #rum{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -300px;
-   display: none;
- 
+  display: none;
+  
 }
 #drum{
   display: flex;
@@ -209,10 +211,11 @@ h1 {
   height: 360px;
   width: 300px;
   margin-top: 10px;
- margin-left: -10px;
+  margin-left: -10px;
  border-radius: 13px;
  font-family: 'Roboto', sans-serif;
  display: none;
+ 
 }
 
 .crossy{
@@ -231,7 +234,7 @@ h1 {
 }
 
 #mail{
-  margin-top: 40px
+  margin-top: 20px;
   
 }
 
@@ -281,4 +284,97 @@ h1 {
 
 }
 
+.collect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  font-weight: lighter;
+}
 
+#collection #uu{
+  font-size: 21px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#collection #pp{
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.brick{
+  width: 260px;
+  height: 300px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.brick img{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.brick .tera{
+  margin-top: -50px;
+  color: #FEFCF3;
+  font-weight: lighter;
+}
+
+.oreo{
+  display: flex;
+}
+
+#shiro{
+  color: rgb(247, 56, 56);
+  margin-left: 19px;
+  font-size: 10px;
+}
+#shiro:hover{
+  color: rgb(254, 34, 34);
+  cursor: pointer;
+}
+
+.git{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .hum{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 45px;
+  }
+  
+  .hum img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .git #spoon{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -40px;
+  }
+  
+  .insta{
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  .center{
+    font-size: 19px;
+  }
+  
+  .insta .kk{
+    margin: 3px;
+    color: white;
+    font-size: 1px;
+    
+  }
+
+  footer{
+    height: 250px;
+  }
