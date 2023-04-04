@@ -13,7 +13,7 @@ Made With ❤️ by Vidit Tamrakar
 ![Screenshot (90)](https://user-images.githubusercontent.com/114985411/229888669-4a08b2f4-db39-47bd-8300-be5998ee0fd2.png)
 
 
-# It is a responsive page, a seperate CSS file is created and media query is used . This is how it looks in a mobile phone.
+### It is a responsive page, a seperate CSS file is created and media query is used . This is how it looks in a mobile phone.
 
 ![CYMERA_20230405_002936](https://user-images.githubusercontent.com/114985411/229895311-7843760a-420d-4a9d-8004-ccd30a6d2604.jpg)
 ![CYMERA_20230405_003211](https://user-images.githubusercontent.com/114985411/229895406-da3ee6a2-469e-480f-9d02-03d9f774f152.jpg)
