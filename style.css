@@ -460,6 +460,18 @@ footer a{
   background-color: #a7a6a696;
 }
 
+h5{
+  color: rgb(0, 85, 255);
+  margin-top: 10px;
+  margin-left: -90px
+}
+
+#drum a{
+  color: rgb(0, 85, 255);
+  font-size: 15px;
+  margin-left: -190px;
+}
+
 #band:hover{
   border: 1px solid black;
   color: orangered;
