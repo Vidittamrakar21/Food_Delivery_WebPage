@@ -573,3 +573,7 @@ display: flex;
 .insta .kk{
   margin: 12px;
 }
+
+#tar:hover{
+  color: blue;
+}
